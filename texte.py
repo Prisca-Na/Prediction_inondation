@@ -6,9 +6,9 @@ import datetime
 import os
 
 # Charger le modèle à partir du chemin absolu
-MODEL_PATH = r"D:\MEMORY\Prediction_inondation\Prevision_inondation.pkl"
-model = joblib.load(MODEL_PATH)
-
+# MODEL_PATH = r"D:\MEMORY\Prediction_inondation\Prevision_inondation.pkl"
+# model = joblib.load(MODEL_PATH)
+MODEL_PATH = "Prevision_inondation.pkl"
 
 # Interface utilisateur
 st.title("🌧️ Prédiction des Inondations à Ouagadougou")
